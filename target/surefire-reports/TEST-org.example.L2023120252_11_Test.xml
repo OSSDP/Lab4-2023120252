@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" version="3.0.1" name="org.example.L2023120252_11_Test" time="0.069" tests="8" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.class.path" value="F:\学校\HIT\开源软件实践\Lab4\Lab4-code\cicd_code\target\test-classes;F:\学校\HIT\开源软件实践\Lab4\Lab4-code\cicd_code\target\classes;D:\Maven\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;D:\Maven\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;D:\Maven\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;D:\Maven\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\Maven\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Shanghai"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.boot.library.path" value="E:\software\java\jdk21\bin"/>
+    <property name="sun.java.command" value="C:\Users\dell\AppData\Local\Temp\surefire1987763441870087915\surefirebooter-20241218164937627_3.jar C:\Users\dell\AppData\Local\Temp\surefire1987763441870087915 2024-12-18T16-49-37_443-jvmRun1 surefire-20241218164937627_1tmp surefire_0-20241218164937627_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="F:\学校\HIT\开源软件实践\Lab4\Lab4-code\cicd_code\target\test-classes;F:\学校\HIT\开源软件实践\Lab4\Lab4-code\cicd_code\target\classes;D:\Maven\repository\org\junit\jupiter\junit-jupiter-api\5.11.0\junit-jupiter-api-5.11.0.jar;D:\Maven\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;D:\Maven\repository\org\junit\platform\junit-platform-commons\1.11.0\junit-platform-commons-1.11.0.jar;D:\Maven\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;D:\Maven\repository\org\junit\jupiter\junit-jupiter-params\5.11.0\junit-jupiter-params-5.11.0.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\dell"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="E:\software\java\jdk21"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="F:\学校\HIT\开源软件实践\Lab4\Lab4-code\cicd_code"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\dell\AppData\Local\Temp\surefire1987763441870087915\surefirebooter-20241218164937627_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.3+7-LTS-152"/>
+    <property name="user.name" value="dell"/>
+    <property name="stdout.encoding" value="GBK"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="D:\Maven\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\dell\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.3"/>
+    <property name="user.dir" value="F:\学校\HIT\开源软件实践\Lab4\Lab4-code\cicd_code"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.library.path" value="E:\software\java\jdk21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;E:\software\python\Python311\Scripts\;E:\software\python\Python311\;C:\Python312\Scripts\;C:\Python312\;E:\software\java\jdk21\bin;C:\Program Files\Common Files\Oracle\Java\javapath;E:\software\VMware\bin\;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;F:\python\Scripts\;F:\python\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;E:\software\nodejs\npm;E:\software\nodejs;E:\software\nodejs\node_cache;E:\software\nodejs\node_global;E:\software\nodejs\node_modules\npm\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;E:\software\mysql-8.0.26-winx64\bin;D:\matlab111\ruanjian\runtime\win64;D:\matlab111\ruanjian\bin;C:\Program Files\MATLAB\R2014a\runtime\win64;C:\Program Files\MATLAB\R2014a\bin;C:\Program Files\MATLAB\R2014a\polyspace\bin;D:\matlab111\ruanjian\polyspace\bin;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Common Files\Autodesk Shared\;C:\ProgramData\chocolatey\bin;C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Node.js;E:\software\TortoiseGit\bin;E:\software\Git\cmd;E:\software\nodejs\;C:\Program Files\dotnet\;C:\Program Files\Docker\Docker\resources\bin;D:\Maven\apache-maven-3.9.6\bin;E:\software\java\jdk21\bin;C:\Users\dell\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Bandizip\;C:\Program Files\JetBrains\CLion 2021.1.3\bin;;F:\pycharm\PyCharm Community Edition 2023.2.1\bin;;E:\各种软件\VScode\Microsoft VS Code\bin;E:\software\IntelliJ IDEA 2022.1.2\bin;;C:\Users\dell\AppData\Roaming\npm;C:\Users\dell\.dotnet\tools;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="GBK"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.3+7-LTS-152"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="testThreeSumWithSingleElement" classname="org.example.L2023120252_11_Test" time="0.029"/>
+  <testcase name="testThreeSumWithMultipleSolutions" classname="org.example.L2023120252_11_Test" time="0.001"/>
+  <testcase name="testThreeSumWithNoSolution" classname="org.example.L2023120252_11_Test" time="0.001"/>
+  <testcase name="testThreeSumWithNegativeAndPositiveNumbers" classname="org.example.L2023120252_11_Test" time="0.001"/>
+  <testcase name="testThreeSumWithDuplicates" classname="org.example.L2023120252_11_Test" time="0.001"/>
+  <testcase name="testThreeSumWithTwoElements" classname="org.example.L2023120252_11_Test" time="0.001"/>
+  <testcase name="testThreeSumWithEmptyArray" classname="org.example.L2023120252_11_Test" time="0.0"/>
+  <testcase name="testThreeSumWithAllZeros" classname="org.example.L2023120252_11_Test" time="0.0"/>
+</testsuite>
